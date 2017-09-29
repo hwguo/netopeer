@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datastores xmlns="urn:cesnet:tmc:datastores:file">
+  <running lock=""/>
+  <startup lock="">
+    <netconf xmlns="urn:ietf:params:xml:ns:yang:ietf-netconf-server">
+      <ssh>
+        <listen>
+          <interface>
+            <address>0.0.0.0</address>
+            <port>830</port>
+          </interface>
+        </listen>
+      </ssh>
+    </netconf>
+  </startup>
+  <candidate modified="false" lock=""/>
+</datastores>
